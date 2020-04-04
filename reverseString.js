@@ -8,3 +8,14 @@ function reverseString(word) {
 }
 
 console.log(reverseString("I am a reverseString function."));
+
+// ES6 for...of loop
+function reverseString2(word2) {
+  let reversedWord2 = "";
+  for (let char of word2) {
+    reversedWord2 = char + reversedWord2;
+  }
+  return reversedWord2;
+}
+
+console.log(reverseString2("I am a for...of loop."));
