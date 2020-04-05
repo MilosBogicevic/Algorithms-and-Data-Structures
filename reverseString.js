@@ -19,3 +19,9 @@ function reverseString2(word2) {
 }
 
 console.log(reverseString2("I am a for...of loop."));
+
+// Reverse a string with split/reverse/join methods
+const reverseString3 = word3 => word3.split("").reverse().join("");
+console.log(reverseString3("We are the methods."));
+
+
