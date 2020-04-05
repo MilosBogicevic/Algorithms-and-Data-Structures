@@ -36,3 +36,15 @@ function reverseString4(word4) {
   }
 }
 console.log(reverseString4("Hello from recursion."));
+
+
+// Recursion with ternany operator
+const reverseString5 = word5 => word5 ? reverseString5(word5.substr(1)) + word5[0] : word5
+console.log(reverseString5("Hello from recursion."));
+
+/*  
+  To run this file:
+  1. Install code editor (Visual Studio Code) and Node.js
+  2. Open file with code editor
+  3. Type in terminal: node reverseString.js 
+*/
