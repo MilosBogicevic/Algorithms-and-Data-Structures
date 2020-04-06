@@ -1,3 +1,4 @@
+// Factorial with for loop
 function factorial(number) {
   if (number == 0 || number == 1) {
     return 1;
@@ -11,7 +12,7 @@ function factorial(number) {
 
 console.log(factorial(5));
 
-
+// ------------------------
 // Factorial with recursion
 function factorial2(number) {
   if (number == 0 || number == 1) {
