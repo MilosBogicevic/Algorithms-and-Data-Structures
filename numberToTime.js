@@ -1,6 +1,9 @@
 function numberToHoursAndMinutes(number) {
   const hours = Math.floor(number / 60);
   let minutes = number % 60;
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
   return `${hours}:${minutes}`;
 }
 
