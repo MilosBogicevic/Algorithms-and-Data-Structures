@@ -8,10 +8,3 @@ for (i = 0; i < array.length; i++) {
 }
 
 console.log(largest);
-
-/*  
-  To run this file:
-  1. Install code editor (Visual Studio Code) and Node.js
-  2. Open file with code editor
-  3. Type in terminal: node largestNumber.js 
-*/
