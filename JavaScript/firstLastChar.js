@@ -9,10 +9,3 @@ function firstLastChar(word, numberOfLetters) {
 }
 
 console.log(firstLastChar("Some string", 2));
-
-/*  
-  To run this file:
-  1. Install code editor (Visual Studio Code) and Node.js
-  2. Open file with code editor
-  3. Type in terminal: node firstLastChar.js 
-*/
