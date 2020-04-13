@@ -18,10 +18,3 @@ console.log(numberToHoursAndMinutes(885));
 console.log(numberToHoursAndMinutes(52));
 console.log(numberToHoursAndMinutes(1180));
 console.log(numberToHoursAndMinutes(184));
-
-/*  
-  To run this file:
-  1. Install code editor (Visual Studio Code) and Node.js
-  2. Open file with code editor
-  3. Type in terminal: node numberToHoursAndMinutes.js 
-*/
