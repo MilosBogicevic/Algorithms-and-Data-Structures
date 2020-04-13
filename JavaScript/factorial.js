@@ -23,10 +23,3 @@ function factorial2(number) {
 }
 
 console.log(factorial2(5));
-
-/*  
-  To run this file:
-  1. Install code editor (Visual Studio Code) and Node.js
-  2. Open file with code editor
-  3. Type in terminal: node factorial.js 
-*/
