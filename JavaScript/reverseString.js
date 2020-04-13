@@ -9,7 +9,6 @@ function reverseString(word) {
 
 console.log(reverseString("I am a reverseString function."));
 
-
 // ES6 for...of loop
 function reverseString2(word2) {
   let reversedWord2 = "";
@@ -21,11 +20,9 @@ function reverseString2(word2) {
 
 console.log(reverseString2("I am a for...of loop."));
 
-
 // Reverse a string with split/reverse/join methods
-const reverseString3 = word3 => word3.split("").reverse().join("");
+const reverseString3 = (word3) => word3.split("").reverse().join("");
 console.log(reverseString3("We are the methods."));
-
 
 // Reverse a string with recursion
 function reverseString4(word4) {
@@ -37,14 +34,7 @@ function reverseString4(word4) {
 }
 console.log(reverseString4("Hello from recursion."));
 
-
 // Recursion with ternany operator
-const reverseString5 = word5 => word5 ? reverseString5(word5.substr(1)) + word5[0] : word5
+const reverseString5 = (word5) =>
+  word5 ? reverseString5(word5.substr(1)) + word5[0] : word5;
 console.log(reverseString5("Hello from recursion."));
-
-/*  
-  To run this file:
-  1. Install code editor (Visual Studio Code) and Node.js
-  2. Open file with code editor
-  3. Type in terminal: node reverseString.js 
-*/
