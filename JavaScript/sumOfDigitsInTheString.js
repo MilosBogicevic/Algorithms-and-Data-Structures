@@ -9,3 +9,4 @@ function sumOfDigits(word) {
 }
 
 console.log(sumOfDigits("2example5word4"));
+console.log(sumOfDigits("sum24ofdigits17"));
