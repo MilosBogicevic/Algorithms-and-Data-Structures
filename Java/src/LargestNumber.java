@@ -13,4 +13,4 @@ public class LargestNumber {
     	}
     	System.out.println("Largest number in an array: " +largest);
     }
-    }
+}
