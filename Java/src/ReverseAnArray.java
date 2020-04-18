@@ -1,7 +1,7 @@
 public class ReverseAnArray {
     public static void main(String[] args) {
 //      Initialize an array
-        int [] numbers = new int [] {25,45, 850, 221, 5, 15, 1280, 545};
+        int [] numbers = new int [] {25,45, 850, 221, 5, 15, 1280};
 
 //      Print an original array
         System.out.println("Original array: ");
